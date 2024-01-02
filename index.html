@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Workout Regime">
+    <meta name="keywords" content="gym, exercise, workout">
+    <title>Workout Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Dumbbel.jpg">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>
+            Create Your Own Workout Routine
+        </h1>
+    </header>
+
+    <section class="pic">
+        <p class="para">
+            Saving time for daily workout in this busy life is difficult sometimes, so we'll save your time and effort by providing a quick and efficient routine to target your muscles! <a id="direct" href="#myform">Please begin by filling out the form below!</a>
+        </p>
+    </section>
+
+    <form id="myform">
+        <section>
+            <label for="equipment">Equipment In Hand</label>
+            <select id="equipment">
+                <option selected="selected" value="none"></option>
+                <option value="nothing">No Equipment</option>
+                <option value="dumbbells">Dumbbells Only</option>
+                <option value="gym">Full Gym Equipment</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="intensity">Intensity for Today</label>
+            <select id="intensity">
+                <option selected="selected" value="none"></option>
+                <option value="light">Light Day</option>"
+                <option value="medium">A Solid Workout</option>
+                <option value="hard">Giving it everything you got!</option>
+            </select>
+        </section>
+
+
+        <section>
+            <label for="mins">Minutes Available to Exercise</label>
+            <select id="mins">
+                <option selected="selected" value="none"></option>
+                <option value="light">30</option>"
+                <option value="ok">60</option>
+                <option value="satisfactory">90</option>
+                <option value="good">120</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="muscle">Target Muscles</label>
+            <select id="muscle">
+                <option selected="selected" value="none"></option>
+                <option value="back">Upper Body Posterior Chain (Back Muscles/Biceps)</option>"
+                <option value="chest">Upper Body Anterior Chain (Chest, shoulders, etc.)</option>
+                <option value="legs">Leg Muscles</option>
+                <option value="abs">Abs and Cardio</option>
+            </select>
+        </section>
+
+        <section>
+            <!-- <label></label> -->
+            <button type="button" name="generate">Generate Routine</button>
+        </section>
+
+    </form>
+
+    <div class="message" for="javascript"></div>
+
+    <section class="routine" for="javascript">
+        <h1 class="workout-header" for="javascript"></h1>
+        <ul class="exercises" for="javascript">
+
+        </ul>
+    </section>
+
+
+    <footer>
+        <a class="link" href="https://github.com/Vishwajeet-Kumar-Patel">
+            Vishwajeet Kumar
+          </a>
+    </footer>
+
+</body>
+
+</html>

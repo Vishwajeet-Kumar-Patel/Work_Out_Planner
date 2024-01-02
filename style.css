@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url("Final.webp");
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-header {
+    background-color: rgb(187, 187, 187);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 64, 64);
+}
+
+#myform {
+    border: 2px solid rgb(29, 26, 26);
+    border-radius: 15px;
+    width: 35%;
+    max-width: 460px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: inset 0px 0px 10px 10px white;
+    background: transparent;
+    
+}
+
+#myform label {
+    display: block;
+    margin-top: 3rem;
+    color: rgb(231, 255, 16);
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#myform select {
+    width: 40%;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+
+.pic {
+    height: 60vh;
+    margin-bottom: 300px;
+    border-bottom: 5px solid rgb(29, 26, 26);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1.6em;
+    font-style: italic;
+    width: 55%;
+    margin-left: 22rem;
+    margin-top: -3rem;
+}
+
+.para {
+    text-align: center;
+}
+
+.pic #direct {
+    display: inline-block;
+    color: aqua;
+    font-style: normal;
+    margin-top: 2.5rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    background: silver;
+    border-radius: 10px;
+}
+
+button:active {
+    background: rgba(84, 84, 84, 0.5)
+}
+
+footer {
+    margin-top: 300px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: radial-gradient(black, gray );
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.message {
+    text-align: center;
+    color: rgb(238, 158, 53);
+    background-color: rgb(131, 247, 255);
+    border-width: 150px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+.workout-header {
+    margin-top: 70px;
+    color: rgb(231, 255, 16);
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.exercises {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 6px;
+    color: white;
+    list-style: square;
+    list-style-position: inside;
+}
+
+.exercises li {
+    padding-top: 15px;
+}
